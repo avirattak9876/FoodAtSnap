@@ -1,0 +1,5 @@
+# Track all .node files with Git LFS
+*.node filter=lfs diff=lfs merge=lfs -text
+
+# Track all .mdb files with Git LFS
+*.mdb filter=lfs diff=lfs merge=lfs -text

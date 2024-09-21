@@ -1,0 +1,45 @@
+
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Node.js
+# Ignore everything in node_modules
+node_modules/*
+
+# Except specific files or directories
+!node_modules/@swc/core-win32-x64-msvc/swc.win32-x64-msvc.node
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/dist
+/build
+/out
+.parcel-cache/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large files
+*.mdb
+*.bin
+
+# Compiled code
+*.class
+*.exe
+*.dll
+
+
+
+
